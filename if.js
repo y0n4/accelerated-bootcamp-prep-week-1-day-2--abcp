@@ -5,4 +5,10 @@ if (pokemon == "Pikachu") {
 }
 
 
-
+function numMessage(num){
+  if (num > 10){
+    return num;
+  } else {
+    return 'sorry, that number is not 10';
+  }
+}
